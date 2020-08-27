@@ -8,11 +8,12 @@ window.onload = ()=>{
     var dadosRecovered = document.querySelector("#dadosRecovered")
 
     const TotalPeople = 29572984
+    const url = 'https://covid19ao.com/api/general'
     GetCovid()
 
 
     function GetCovid(){
-         fetch('https://covid19ao.com/api/general', {
+         fetch(url, {
         method: 'get',
         headers: {
             'Content-Type': 'application/json'
