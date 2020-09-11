@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Covid Angola</title>
 </head>
 <body>
 
@@ -40,7 +40,7 @@
     <p id="dadosActivos">Percentagem de Activos: </p>
     <p id="dadosDeath">Percentagem de Mortes: </p>
     <p id="dadosRecovered">Percentagem de Recuperados: </p>
-    <b>Desenvolvido por Guel de Almeida</b>
+    <b text-align="center">Desenvolvido por Guel de Almeida</b>
 </footer>
 
 
