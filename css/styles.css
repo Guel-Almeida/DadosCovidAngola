@@ -1,0 +1,115 @@
+body{
+    background: #000000f6;
+}
+
+header{
+    text-align: center;
+    color: white;
+
+}
+.geral{
+  height: 230px;
+  border-radius: 5px;
+  margin: 1%;
+  box-shadow: 5px 10px 8px;
+}
+
+header> h3{
+    color: white;
+}
+.dados{
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: white;
+    width: 50%;
+    height: 140px;
+    transition: 2s;
+}
+
+.dados p{
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.active{
+    border: 1px solid green;
+    background-color: rgb(17, 182, 17);
+    transition: 2s;
+}
+
+.active:hover{
+    transition: 3s;
+    transform: scale(0.9);
+  
+}
+
+.death{
+    border: 1px solid red;
+    background-color: rgb(156, 6, 6);
+    transition: 2s;
+}
+
+.death:hover{
+    transition: 3s;
+    transform: scale(0.9);
+  
+}
+.recovered{
+    border: 1px solid yellow;
+    background-color: rgb(212, 212, 20);
+    transition: 2s;
+}
+
+.recovered:hover{
+    transition: 3s;
+    transform: scale(0.9);
+  
+}
+.footer{
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.footer table thead {
+   color: white;
+   text-align: center;
+    
+}
+
+.footer table tbody {
+  
+    text-align: left;
+     
+ }
+#dadosActivos{
+    color: rgb(17, 182, 17);
+    font-weight: bold;
+    
+}
+#dadosDeath{
+    color: rgb(156, 6, 6); 
+    font-weight: bold;
+}
+#dadosRecovered{
+    color: rgb(212, 212, 20);
+     font-weight: bold;
+}
+@media (min-width: 768px){
+    
+.geral{
+    height: 250px;
+    border-radius: 5px;
+    margin: 0.5%;
+    width: 32%;
+  }
+  
+.footer{
+    margin-top: 3%;
+}
+}
