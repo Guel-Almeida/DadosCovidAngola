@@ -40,6 +40,7 @@
     <p id="dadosActivos">Percentagem de Activos: </p>
     <p id="dadosDeath">Percentagem de Mortes: </p>
     <p id="dadosRecovered">Percentagem de Recuperados: </p>
+    <b>Desenvolvido por Guel de Almeida</b>
 </footer>
 
 
