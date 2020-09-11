@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="<?php echo "favicon.ico" ?>">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
@@ -41,9 +41,9 @@
     <p id="dadosActivos">Percentagem de Activos: </p>
     <p id="dadosDeath">Percentagem de Mortes: </p>
     <p id="dadosRecovered">Percentagem de Recuperados: </p>
-    <b text-align="center">Desenvolvido por Guel de Almeida</b>
+     <p class="me">Desenvolvido por Guel de Almeida</p>
 </footer>
-
+           
 
 
 
