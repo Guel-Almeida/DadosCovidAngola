@@ -6,7 +6,6 @@ window.onload = ()=>{
 
 }
 
-
  function GetCovid (){
         
     var ValorActive = document.querySelector(".ValorActive")
