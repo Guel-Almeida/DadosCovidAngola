@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     
-    <title>Covid Angola</title>
+    <title>covid Angola</title>
 </head>
 <body>
 <header><h1>Covid Angola</h1></header>
