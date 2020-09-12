@@ -4,8 +4,7 @@ window.onload = ()=>{
   
     GetCovid()   
 
-}
-
+    
  function GetCovid (){
         
     var ValorActive = document.querySelector(".ValorActive")
@@ -32,8 +31,9 @@ window.onload = ()=>{
               dadosPeople.innerHTML += TotalPeople
               dadosDeath.innerHTML += ((Number(res.data.deaths)*100)/Number(TotalPeople)).toFixed(5)+" %"
               dadosRecovered.innerHTML += ((Number(res.data.recovered)*100)/Number(TotalPeople)).toFixed(5)+" %"
-              
+              console.log(((Number(res.data.deaths)*100)/Number(TotalPeople)).toFixed(5)+" %")
           }).catch((error) => {
               console.error(error)
       });
       }
+}
